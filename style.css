@@ -1,0 +1,51 @@
+body {
+    background-color: #580F0F;
+  }
+  .hero {
+    height: 500px;
+    width: 100%;
+    /* margin: 3px; */
+    background-image: url("images/food on table.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .italian {
+    background-image: url("images/italian\ food.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .chinese {
+    background-image: url("images/chinese\ food.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .american {
+    background-image: url("images/american\ food.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .mexican {
+    background-image: url("images/mexican\ food.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .thai {
+    background-image: url("images/thai\ food.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .vietnamese {
+    background-image: url("images/vietnamese\ food.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .vegetarian {
+    background-image: url("images/vegetarian\ food.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .vegan {
+    background-image: url("images/vegan\ food.jpg");
+    background-size: cover;
+    background-position: center;
+  }
