@@ -1,0 +1,97 @@
+body {
+    background-color: #580F0F;
+  }
+  .hero {
+    height: 500px;
+    width: 100%;
+    /* margin: 3px; */
+    background-image: url(../images/food\ on\ table.jpg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .italian {
+    background-image: url(../images/italian\ food.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .chinese {
+    background-image: url(../images/chinese\ food.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .american {
+    background-image: url(../images/american\ food.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .mexican {
+    background-image: url(../images/mexican\ food.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .thai {
+    background-image: url(../images/thai\ food.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .vietnamese {
+    background-image: url(../images/vietnamese\ food.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .vegetarian {
+    background-image: url("images/vegetarian\ food.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .vegan {
+    background-image: url("images/vegan\ food.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+ .cardContainer {
+   height: 25vh;
+ }
+
+ .wrapper {
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: rgba(0,0,0,0.6);
+   width: 75%;
+   padding: 15px;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   
+ }
+
+ .wrapper .input {
+   width: 85%;
+   padding: 15px 20px;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+ }
+
+ .searchbtn {
+   background: WHITE;
+   width: 10%;
+   border-radius: 5px;
+   position: relative;
+   cursor: pointer;
+ }
+
+ .searchbtn .fa-magnifying-glass {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+
+ }
+  
