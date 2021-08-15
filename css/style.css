@@ -10,6 +10,18 @@ body {
   background-size: cover;
   background-position: center;
 }
+/*logo   WORKING ON*/
+.logoWrapper {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+.rounded .mx-auto .d-block .logo {
+  height: 2%;
+  width: 2%;
+}
+/*    */
 
 .wrapper {
   position: absolute;
