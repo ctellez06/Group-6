@@ -174,7 +174,10 @@ $("#run-search").on("click", function(event) {
     // The data then gets passed as an argument to the updatePage function
     $.ajax({
       url: queryURL,
-      method: "GET"
+      method: "GET",
+      beforeSend: function (xhr) {
+        xhr.setRequestHeader('Authorization','Bearer '+ yelpFapi);
+    },
     }).then(updatePage);
   });
 
