@@ -75,38 +75,39 @@ function updatePage(yelpData) {
         }
         $businessList.append($businessListItem);
     }
+}
 
-    // Function to empty out the businesses
-    function clear() {
-        $("#business-section").empty();
-    }
+// Function to empty out the businesses
+function clear() {
+    $("#business-section").empty();
+}
 
-    // CLICK HANDLERS
-    // ==========================================================
+// CLICK HANDLERS
+// ==========================================================
 
-    // .on("click") function associated with the Search Button
-    $("#run-search").on("click", function (event) {
-        // This line allows us to take advantage of the HTML "submit" property
-        // This way we can hit enter on the keyboard and it registers the search
-        // (in addition to clicks). Prevents the page from reloading on form submit.
-        event.preventDefault();
+// .on("click") function associated with the Search Button
+$("#run-search").on("click", function (event) {
+    // This line allows us to take advantage of the HTML "submit" property
+    // This way we can hit enter on the keyboard and it registers the search
+    // (in addition to clicks). Prevents the page from reloading on form submit.
+    event.preventDefault();
 
-        // Empty the region associated with the businesses
-        clear();
+    // Empty the region associated with the businesses
+    clear();
 
-        // Build the query URL for the ajax request to the Yelp Fusion API
-        var queryURL = buildQueryURL();
+    // Build the query URL for the ajax request to the Yelp Fusion API
+    var queryURL = buildQueryURL();
 
-        // Make the AJAX request to the API - GETs the JSON data at the queryURL.
-        // The data then gets passed as an argument to the updatePage function
-        $.ajax({
-            url: queryURL,
-            method: "GET",
-            beforeSend: function (xhr) {
-                xhr.setRequestHeader('Authorization', 'Bearer ' + yelpFapi);
-            },
-        }).then(updatePage);
-    });
+    // Make the AJAX request to the API - GETs the JSON data at the queryURL.
+    // The data then gets passed as an argument to the updatePage function
+    $.ajax({
+        url: queryURL,
+        method: "GET",
+        beforeSend: function (xhr) {
+            xhr.setRequestHeader('Authorization', 'Bearer ' + yelpFapi);
+        },
+    }).then(updatePage);
+});
 
-    //  .on("click") function associated with the clear button
-    $("#clear-all").on("click", clear);
+//  .on("click") function associated with the clear button
+$("#clear-all").on("click", clear);
