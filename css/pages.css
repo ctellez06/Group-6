@@ -1,0 +1,65 @@
+/*PAGES*/
+
+.hero-italian {
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/italian food.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-chinese {
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/chinese food.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-american {
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/american food.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-mexican {
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/mexican food.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-thai {
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/thai food.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-vietnamese {
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/vietnamese food.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-vegetarian {
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/vegetarian food.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-vegan {
+  height: 500px;
+  width: 100%;
+  background-image: url("../images/vegan food.jpg");
+  background-size: cover;
+  background-position: center;
+}
