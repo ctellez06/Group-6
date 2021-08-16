@@ -12,10 +12,14 @@ body {
 }
 /*logo   WORKING ON
 */
-.logoWrapper {
-  position: absolute;
-  top: 20%;
-  left: 50%;
+.center-logo {
+  border-radius: 20px 20px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: auto;
 }
 
 .rounded .mx-auto .d-block .logo {
@@ -53,7 +57,7 @@ body {
   cursor: pointer;
 }
 
-.searchbtn .fa-magnifying-glass {
+.searchbtn .fas {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -62,7 +66,7 @@ body {
 }
 /*END TOP IMAGE WITH SEARCH BAR*/
 
-/*CARDS WITH IMAGES*/
+/*HOME PAGE -- CARDS WITH IMAGES*/
 .italian {
   background-image: url("../images/italian\ food.jpg");
   background-size: cover;
@@ -103,8 +107,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+/*END HOME PAGE -- CARDS WITH IMAGES*/
 
-/*CARD ?ATTRIBUTES?? */
+/*HOME PAGE -- CARD ?ATTRIBUTES?? */
 .cardContainer {
   height: 45vh;
 }
@@ -152,4 +157,11 @@ body {
   display: inline-block;
   margin: 20px 20px;
   padding: 1px 20px;
+}
+
+.yelp-box {
+  margin: auto;
+  width: 80%;
+  background-color: rgb(255, 255, 255, 0);
+  text-align: center;
 }
