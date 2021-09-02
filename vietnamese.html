@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ​
+  <!--Define keywords for search engines: -->
+  <meta name="keywords" content="Food, restaurant, restaurants, cuisine, local, dining, eating">
+  <title>FoodiePal-Vietnamese</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script src="https://kit.fontawesome.com/114e114b87.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><img src="screenshotsAndMore/foodiepal-brand-logo.jpg" height=65px width=100px></a>        
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">FoodiePal<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Vietnamese Food<span class="sr-only">(current)</span></a>
+              </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Location" aria-label="Location"
+                  id="search-location">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                  id="search-term">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="run-search">Search</button>
+          </form>
+      </div>
+  </nav>
+  <!--END NAVBAR-->
+
+  <div class="hero-vietnamese" alt="Picture of food">
+    <!--SEARCHBAR FOR HERO IMAGE-->
+<!--    <div class="wrapper">
+      <input type="text" class="input" placeholder="What type of food would you like?">
+      <div class="searchbtn">
+        <i class="fas fa-search"></i>
+      </div>
+-->    </div>
+  </div>
+
+<!--DIV TO HOLD RETRIEVED INFO FROM YELP API-->
+    <!-- This row will handle all of the retrieved businesses -->
+    <div class="row yelp-box">
+      <div class="col-sm-12 col-md-11 col-lg-11 ">
+          <br>
+          <!-- This card will initially be made up of a card and wells for each of the businesses retrieved -->
+          <div class="card">
+
+              <!-- card Heading for the retrieved businesses box -->
+              <div class="card-header">
+                  <strong>
+                      <i class="fa fa-table">Top Restaurants</i></strong>
+              </div>
+              <!-- This main card will hold each of the resulting businesses -->
+              <div class="card-body" id="business-section"> </div>
+          </div>
+      </div>
+    </div>
+<!--END CARD FOR RETRIEVED BUSINESSES-->  
+<br>
+
+  <footer>
+    <div>
+      <ul class="link">
+        <li class="li"><a href="https://twitter.com/FoodiePal01"><i class="fa fa-twitter"
+              style="font-size:48px;color:rgb(255, 255, 255, 0.8)"></i></a></li>
+        <li class="li"><a href="https://www.pinterest.com/FoodiePal01/_saved/"><i class="fa fa-pinterest-square"
+              style="font-size:48px;color:rgb(255, 255, 255, 0.8)"></i></a></li>
+        <li class="li"><a href="https://www.facebook.com/FoodiePal01/"><i class="fa fa-facebook-official"
+              style="font-size:48px;color:rgb(255, 255, 255, 0.8)"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <script src="fp_code.js"></script>
+</body>
+
+</html>s
